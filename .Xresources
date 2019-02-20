@@ -5,14 +5,14 @@ Xft.hintstyle:  hintfull
 Xft.hinting: 1
 Xft.antialias: 1
 Xft.rgba: rgb-
-! Urxvt configs
-! Colors from solarized (http://ethanschoonover.com/solarized)
-! Also from https://github.com/boubounokefalos
+
+! Some colors are from solarized (http://ethanschoonover.com/solarized)
+! Some are from https://github.com/boubounokefalos
 
 !URxvt.depth: 32
 URxvt.transparent: false
 URxvt.fading: false
-URxvt.loginShell: trye
+URxvt.loginShell: true
 URxvt.saveLines: 50
 URxvt.internalBorder: 10
 URxvt.lineSpace: 0
