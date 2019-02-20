@@ -1,0 +1,8 @@
+alias cmatrix='cmatrix -B -C green'
+alias pipes='pipes.sh -s 5 -r 0 -c 1 -c 2 -c 4 -c 7'
+alias ls='ls --color=auto'
+alias ll='ls -l --color=auto'
+alias lll='ls -alF --color=always | less -R'
+alias dmesg='dmesg --color=always | less -R'
+alias c='clear'
+alias pos='echo -e "${USER} ${HOSTNAME} \033[01;31m$(pwd)\033[00m $(date +"%b %d %a %X")"'

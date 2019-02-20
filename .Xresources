@@ -1,0 +1,71 @@
+Xft.dpi: 110
+Xft.autohint: 0
+Xft.lcdfilter:  lcddefault
+Xft.hintstyle:  hintfull
+Xft.hinting: 1
+Xft.antialias: 1
+Xft.rgba: rgb-
+! Urxvt configs
+! Colors from solarized (http://ethanschoonover.com/solarized)
+! Also from https://github.com/boubounokefalos
+
+!URxvt.depth: 32
+URxvt.transparent: false
+URxvt.fading: false
+URxvt.loginShell: trye
+URxvt.saveLines: 50
+URxvt.internalBorder: 10
+URxvt.lineSpace: 0
+
+URxvt*font: xft:IBM 3270:pixelsize=19
+URxvt*boldFont: xft:IBM 3270:bold:pixelsize=19
+URxvt*letterSpace: 0
+
+URxvt.scrollStyle: rvxt
+URxvt.scrollBar: false
+
+URxvt.cursorBlink: true
+URxvt.cursorColor: #0a0b0d
+URxvt.cursorUnderline: true
+
+URxvt*pointerBlank: true
+
+! colors from http://github.com/altercation/solarized
+
+*background: #ffffff
+*foreground: #0a0b0d
+
+*fadeColor: #000000
+*cursorColor: #2bb9b8
+
+! white
+*color0: #ffffff
+*color8: #ffffff
+
+! red
+*color1: #cc0000
+*color9: #cc0000
+
+! green 
+*color2: #138706
+*color10: #138706
+
+! yellow
+*color3: #9fe7e6
+*color11: #9fe7e6
+
+! blue
+*color4: #2bb9b8
+*color12: #2bb9b8
+
+! magenta
+*color5: #398f8f
+*color13: #398f8f
+
+! cyan
+*color6: #112a2a
+*color14: #112a2a
+
+! black
+*color7: #0a0b0d
+*color15: #0a0b0d
