@@ -32,14 +32,6 @@ Inspired by [boubounokefalos](https://github.com/boubounokefalos)'s [post](https
 **[Spaceship](http://simpledesktops.com/browse/desktops/2015/may/19/spaceship/)** by [Mario Azzi](http://marioazzi.com/) on [Simple Desktops](https://simpledesktops.com)
 
 ## screenshots
-![empty](Pictures/empty.jpeg)
-
-**Empty**
-
-![empty](Pictures/empty_extended.jpeg)
-
-**Empty** with bar-2 (toggles on Win+i)
-
 ![vim](Pictures/vim.jpeg)
 
 **VIM** - Vim (with vim-git-branch-info plugin), Cmus and Cli-Visualizer
@@ -59,3 +51,11 @@ Inspired by [boubounokefalos](https://github.com/boubounokefalos)'s [post](https
 ![ufetch](Pictures/ufetch.jpeg)
 
 **Ufetch** - ufetch, fff file manager, feh with wallpaper
+
+![empty](Pictures/empty.jpeg)
+
+**Empty**
+
+![empty](Pictures/empty_extended.jpeg)
+
+**Bar-2** - toggles on Win+i (in i3config)
