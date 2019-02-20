@@ -15,14 +15,14 @@ Inspired by [boubounokefalos](https://github.com/boubounokefalos)'s [post](https
 - **[cmus](https://packages.debian.org/stretch/cmus)**
 - **[scrot](https://packages.debian.org/stretch/scrot)**
 - **[i3blocks](https://packages.debian.org/stretch/i3blocks)**
-  - modifications in [keyindicator](https://github.com/vivien/i3blocks-contrib/tree/master/keyindicator) as the debian package isn't updated to include script supporting user input of colors
-  - also modified [battery](https://github.com/vivien/i3blocks-contrib/tree/master/battery) to give a sleeker output
+  - [modifications](/usr/share/i3blocks/keyindicator) in [keyindicator](https://github.com/vivien/i3blocks-contrib/tree/master/keyindicator) as the debian package isn't updated to include script supporting user input of colors
+  - [modified](/usr/share/i3blocks/battery) [battery](https://github.com/vivien/i3blocks-contrib/tree/master/battery) to give a sleeker output
 - **[cmatrix](https://packages.debian.org/stretch/cmatrix)**
 - **[fff](https://github.com/dylanaraps/fff)**
 - **[pipes.sh](https://github.com/pipeseroni/pipes.sh)**
-- **[panes](https://github.com/stark/Color-Scripts/blob/master/color-scripts/panes)** - Had to add a `$t` at the end or else it leaves with bold text turned on
-- **[cli-visualizer](ihttps://github.com/dpayne/cli-visualizer)**
-- **[ufetch](https://gitlab.com/jschx/ufetch/tree/master)** - modified to o/p i3 instead of /etc/X11/Xsession
+- **[panes](https://github.com/stark/Color-Scripts/blob/master/color-scripts/panes)** - [Added](/usr/bin/panes) a `$t` at the end because it used to exit with bold text turned on
+- **[cli-visualizer](https://github.com/dpayne/cli-visualizer)**
+- **[ufetch](https://gitlab.com/jschx/ufetch/tree/master)** - [modified](/usr/bin/ufetch) to o/p i3 instead of /etc/X11/Xsession
 
 ## wallpaper
 ![Spaceship](http://static.simpledesktops.com/uploads/desktops/2015/05/19/SimpleDesktops_Mario-2880x1800.png)
