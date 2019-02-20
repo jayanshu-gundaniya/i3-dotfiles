@@ -5,6 +5,8 @@ backup of dotfiles for my laptop
 
 **WM**: [i3wm](https://i3wm.org/)
 
+**FONT**: IBM 3270 ([fonts-3270](https://packages.debian.org/stretch/fonts-3270) in Debian 9)
+
 Inspired by [boubounokefalos](https://github.com/boubounokefalos)'s [post](https://www.reddit.com/r/unixporn/comments/aq76pa/i3_frozen/) ([dotfiles](https://github.com/boubounokefalos/dotfiles_frozen)) (which is based on [vahnrr](https://gitlab.com/vahnrr)'s [post](https://www.reddit.com/r/unixporn/comments/aim9eg/i3gaps_dark_colors_are_comfy/))
 
 ## list of apps
@@ -30,4 +32,30 @@ Inspired by [boubounokefalos](https://github.com/boubounokefalos)'s [post](https
 **[Spaceship](http://simpledesktops.com/browse/desktops/2015/may/19/spaceship/)** by [Mario Azzi](http://marioazzi.com/) on [Simple Desktops](https://simpledesktops.com)
 
 ## screenshots
+![empty](Pictures/empty.jpeg)
 
+**Empty**
+
+![empty](Pictures/empty_extended.jpeg)
+
+**Empty** with i3blocks bar-2 (toggles on Win+i)
+
+![vim](Picturs/vim.jpeg)
+
+**VIM** - Vim (with vim-git-branch-info plugin), Cmus and Cli-Visualizer
+
+![vimfullscreen](Pictures/vim_full_screen.jpeg)
+
+**VIM** Full screen
+
+![pipes](Pictures/pipes.jpeg)
+
+**Pipes** - Pipes.sh, Cmatrix and  Panes (colorscript)
+
+![mupdf](Pictures/mupdf.jpeg)
+
+**Mupdf** - Mupdf (with a sample pdf), Firefox-ESR and URxvt in tabbed mode
+
+![ufetch](Pictures/ufetch.jpeg)
+
+**Ufetch** - ufetch, fff file manager, feh with wallpaper
