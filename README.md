@@ -38,13 +38,13 @@ Inspired by [boubounokefalos](https://github.com/boubounokefalos)'s [post](https
 
 ![empty](Pictures/empty_extended.jpeg)
 
-**Empty** with i3blocks bar-2 (toggles on Win+i)
+**Empty** with bar-2 (toggles on Win+i)
 
-![vim](Picturs/vim.jpeg)
+![vim](Pictures/vim.jpeg)
 
 **VIM** - Vim (with vim-git-branch-info plugin), Cmus and Cli-Visualizer
 
-![vimfullscreen](Pictures/vim_full_screen.jpeg)
+![vimfullscreen](Pictures/vim_fullscreen.jpeg)
 
 **VIM** Full screen
 
