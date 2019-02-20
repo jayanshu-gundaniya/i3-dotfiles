@@ -34,33 +34,27 @@ Inspired by [boubounokefalos](https://github.com/boubounokefalos)'s [post](https
 ## screenshots
 ![empty](Pictures/empty.jpeg)
 
-**Empty**
-
+**Empty**<br /><br />
 
 ![empty](Pictures/empty_extended.jpeg)
 
-**Empty** with bar-2 (toggles on Win+i)
-
+**Empty** with bar-2 (toggles on Win+i)<br /><br />
 
 ![vim](Pictures/vim.jpeg)
 
-**VIM** - Vim (with vim-git-branch-info plugin), Cmus and Cli-Visualizer
-
+**VIM** - Vim (with vim-git-branch-info plugin), Cmus and Cli-Visualizer<br /><br />
 
 ![vimfullscreen](Pictures/vim_fullscreen.jpeg)
 
-**VIM** Full screen
-
+**VIM** Full screen<br /><br />
 
 ![pipes](Pictures/pipes.jpeg)
 
-**Pipes** - Pipes.sh, Cmatrix and  Panes (colorscript)
-
+**Pipes** - Pipes.sh, Cmatrix and  Panes (colorscript)<br /><br />
 
 ![mupdf](Pictures/mupdf.jpeg)
 
-**Mupdf** - Mupdf (with a sample pdf), Firefox-ESR and URxvt in tabbed mode
-
+**Mupdf** - Mupdf (with a sample pdf), Firefox-ESR and URxvt in tabbed mode<br /><br />
 
 ![ufetch](Pictures/ufetch.jpeg)
 
