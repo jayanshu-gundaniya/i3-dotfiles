@@ -108,7 +108,7 @@ interval=10
 
 [bandwidth]
 # instance=enp3s0
-interval=5
+interval=persist
 
 
 #[load_average]
