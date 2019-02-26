@@ -14,11 +14,14 @@ Inspired by [boubounokefalos](https://github.com/boubounokefalos)'s [post](https
 - **[vim](https://packages.debian.org/stretch/vim)**
   - using [vim-git-branch-info](https://github.com/taq/vim-git-branch-info) plugin
 - **[feh](https://packages.debian.org/stretch/feh)**
+- **[nitrogen](https://packages.debian.org/stretch/nitrogen)**
 - **[cmus](https://packages.debian.org/stretch/cmus)**
 - **[scrot](https://packages.debian.org/stretch/scrot)**
 - **[i3blocks](https://packages.debian.org/stretch/i3blocks)**
   - [modifications](/usr/share/i3blocks/keyindicator) in [keyindicator](https://github.com/vivien/i3blocks-contrib/tree/master/keyindicator) as the debian package isn't updated to include script supporting user input of colors
   - [modified](/usr/share/i3blocks/battery) [battery](https://github.com/vivien/i3blocks-contrib/tree/master/battery) to give a sleeker output
+  - [modified](/usr/share/i3blocks/iface) [iface](https://github.com/vivien/i3blocks-contrib/tree/master/iface) to avoid displaying IP of global scope in o/p of `ip addr show` and instead display `$IF down`
+  - [modified](/usr/share/i3blocks/essid) [essid](https://github.com/vivien/i3blocks-contrib/tree/master/essid) - not included in debian 9 package. Had to download and tweak to get it work.
 - **[cmatrix](https://packages.debian.org/stretch/cmatrix)**
 - **[fff](https://github.com/dylanaraps/fff)**
 - **[pipes.sh](https://github.com/pipeseroni/pipes.sh)**
@@ -46,7 +49,7 @@ Inspired by [boubounokefalos](https://github.com/boubounokefalos)'s [post](https
 
 ![mupdf](Pictures/mupdf.jpeg)
 
-**Mupdf** - Mupdf (with a sample pdf), Firefox-ESR and URxvt in tabbed mode
+**Mupdf** - Mupdf (with a [Sample PDF](http://www.africau.edu/images/default/sample.pdf) file), Firefox-ESR and URxvt in tabbed mode
 
 ![ufetch](Pictures/ufetch.jpeg)
 
