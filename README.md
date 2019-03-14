@@ -24,6 +24,7 @@ Inspired by [boubounokefalos](https://github.com/boubounokefalos)'s [post](https
   - [modified](/usr/share/i3blocks/essid) [essid](https://github.com/vivien/i3blocks-contrib/tree/master/essid) - not included in debian 9 package. Had to download and tweak to get it work.
 - **[cmatrix](https://packages.debian.org/stretch/cmatrix)**
 - **[fff](https://github.com/dylanaraps/fff)**
+- **[gotop](https://github.com/cjbassi/gotop)**
 - **[pipes.sh](https://github.com/pipeseroni/pipes.sh)**
 - **[panes](https://github.com/stark/Color-Scripts/blob/master/color-scripts/panes)** - [Added](/usr/bin/panes) a `$t` at the end because it used to exit with bold text turned on
 - **[cli-visualizer](https://github.com/dpayne/cli-visualizer)**
@@ -47,9 +48,13 @@ Inspired by [boubounokefalos](https://github.com/boubounokefalos)'s [post](https
 
 **Pipes** - Pipes.sh, Cmatrix and  Panes (colorscript)
 
-![mupdf](Pictures/mupdf.jpeg)
+![gotop](Pictures/gotop.jpeg)
 
-**Mupdf** - Mupdf (with a [Sample PDF](http://www.africau.edu/images/default/sample.pdf) file), Firefox-ESR and URxvt in tabbed mode
+**Gotop** - Gotop, Firefox-ESR and VLC player in tabbed mode
+
+![qutebrowser](Pictures/qutebrowser.jpeg)
+
+**Qutebrowser**
 
 ![ufetch](Pictures/ufetch.jpeg)
 

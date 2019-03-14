@@ -1,2 +1,2 @@
 #!/bin/sh
-feh  --bg-scale '/home/user/Pictures/wallpaper.png' 
+feh  --bg-scale '/home/user/Pictures/wallpaper/wallpaper_1.png' 
