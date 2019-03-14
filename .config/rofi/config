@@ -1,5 +1,5 @@
 ! "Enabled modi" Set from: Default
- rofi.modi:                           run
+! rofi.modi:                           ssh
 
 ! "Window width" Set from: Default
  rofi.width:                          50
@@ -13,9 +13,11 @@
 ! "Color scheme for normal row" Set from: Default
  rofi.color-normal:                   #ffffff, #0a0b0d, #ffffff, #0a0b0d, #ffffff
 ! "Color scheme for urgent row" Set from: Default
- rofi.color-urgent:                   #fdf6e3,#dc322f,#eee8d5,#dc322f,#fdf6e3
+! rofi.color-urgent:                   #fdf6e3,#dc322f,#eee8d5,#dc322f,#fdf6e3
+ rofi.color-urgent:                   #cc0000,#ffffff,#ffffff,#cc0000,#ffffff
 ! "Color scheme for active row" Set from: Default
- rofi.color-active:                   #fdf6e3,#268bd2,#eee8d5,#268bd2,#fdf6e3
+! rofi.color-active:                   #fdf6e3,#268bd2,#eee8d5,#268bd2,#fdf6e3
+ rofi.color-active:                   #ffffff,#cc0000,#ffffff,#cc0000,#ffffff
 ! "Color scheme window" Set from: Default
  rofi.color-window:                   #ffffff, #0a0b0d, #ffffff
 ! "Separator style (none, dash, solid)" Set from: Default
@@ -32,13 +34,13 @@
 ! "X-offset relative to location" Set from: Default
 ! rofi.xoffset:                        0
 ! "Always show number of lines" Set from: Default
- rofi.fixed-num-lines:                true
+rofi.fixed-num-lines:                true
 ! "Terminal to use" Set from: Default
 ! rofi.terminal:                       rofi-sensible-terminal
 ! "Ssh client to use" Set from: Default
 ! rofi.ssh-client:                     ssh
 ! "Ssh command to execute" Set from: Default
-! rofi.ssh-command:                    {terminal} -e {ssh-client} {host}
+! rofi.ssh-command:                    urxvt -e {ssh-client} {host}
 ! "Run command to execute" Set from: Default
 ! rofi.run-command:                    {cmd}
 ! "Command to get extra run targets" Set from: Default
@@ -96,7 +98,7 @@ rofi.cycle:                          true
 ! "Background to use for fake transparency. (background or screenshot)" Set from: Default
 ! rofi.fake-background:                screenshot
 ! "Window Format. w (desktop name), t (title), n (name), r (role), c (class)" Set from: Default
-! rofi.window-format:                  {w}   {c}   {t}
+!rofi.window-format:                  {w}   {c}   {t}
 ! "Click outside the window to exit" Set from: Default
 ! rofi.click-to-exit:                  true
 ! "Indicate how it match by underlining it." Set from: Default
@@ -212,13 +214,13 @@ rofi.cycle:                          true
 ! "Custom Keybinding 19" Set from: Default
 ! rofi.kb-custom-19:                   Alt+parenleft
 ! "The display name of this browser" Set from: Default
-! rofi.display-ssh:                    
+! rofi.display-ssh:										 machine
 ! "The display name of this browser" Set from: Default
- rofi.display-run:                   Search 
+! rofi.display-run:                 
 ! "The display name of this browser" Set from: Default
-! rofi.display-drun:                   
+rofi.display-drun:                   app 
 ! "The display name of this browser" Set from: Default
-! rofi.display-window:                 
+rofi.display-window:                 window
 ! "The display name of this browser" Set from: Default
 ! rofi.display-windowcd:               
 ! "The display name of this browser" Set from: Default

@@ -20,15 +20,15 @@ set_from_resource $blue color4 #2bb9b8
 set_from_resource $darkblue color5 #398f8f
 
 for_window [class=".*"] border pixel 2
-for_window [class=".*"] title_format " <b>%class</b> "
+for_window [class=".*"] title_format " <b>%title</b> "
 
 focus_follows_mouse no
 hide_edge_borders smart
 
 # colour of border, background, text, indicator, and child_border
 client.focused                  $white $white $red $red $black
-client.focused_inactive 	      $white $white $black $white $white
-client.unfocused                $white $white $black $white $white
+client.focused_inactive 	      $darkblue $white $black $white $white
+client.unfocused                $darkblue $white $black $white $white
 client.urgent                   $red $white $red $red $red
 client.placeholder              $white $black $white
 client.background               $red
@@ -48,12 +48,20 @@ bindsym $alt+Return exec urxvt
 # kill focused window
 bindsym $mod+Shift+q kill
 
-bindsym $mod+d exec rofi -show run -config ${HOME}/.config/rofi/run_config
 #bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
+bindsym $mod+Shift+a exec rofi -show drun
+bindsym $mod+Shift+w exec rofi -show window
 
-bindsym $alt+f exec spacefm
-bindsym $alt+c exec chromium --incognito
+bindsym $alt+f exec urxvt -e ranger
+bindsym $alt+c exec urxvt -e cmus
+bindsym $alt+v exec urxvt -e vis
+bindsym $alt+s exec urxvt -title ssh
+bindsym $alt+e exec urxvt -e vim
+bindsym $alt+g exec urxvt -r gotop
+
 bindsym $alt+b exec firefox --private-window
+bindsym $alt+q exec qutebrowser --set content.private_browsing "true"
+
 bindsym Print exec scrot -q 100 "$HOME/Pictures/%Y_%m_%d_%H_%M_%S_screenshot_$wx$h.jpeg"
 
 # change focus
@@ -106,9 +114,6 @@ bindsym $mod+space focus mode_toggle
 # focus the parent container
 bindsym $mod+a focus parent
 
-# lock
-#bindsym $alt+l exec --no-startup-id $HOME/i3lock-fancy/lock
-
 # Define names for default workspaces for which we configure key bindings later on.
 # We use variables to avoid repeating the names in multiple places.
 set $ws1 "1"
@@ -152,8 +157,10 @@ bindsym $mod+Shift+c reload
 bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
 bindsym $mod+Shift+e exec "i3-nagbar -f IBM 3270 -t error -m 'Exit?' -b 'Yes' 'i3-msg exit'"
-bindsym $mod+Shift+s exec systemctl hibernate
-bindsym $mod+Shift+p exec systemctl poweroff
+
+bindsym $alt+Shift+h exec systemctl hibernate
+bindsym $alt+Shift+p exec systemctl poweroff
+#bindsym $alt+Shift+l exec --no-startup-id $HOME/i3lock-fancy/lock
 
 # resize window (you can also use the mouse for that)
 mode "Resize" {
